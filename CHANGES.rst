@@ -4,6 +4,12 @@
 Service fixes and enhancements
 ------------------------------
 
+sha
+^^^
+
+- A ``NoResultsWarning`` is now returned when there is return of any empty 
+  table. [#1837]
+
 mast
 ^^^^
 
