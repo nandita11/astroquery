@@ -10,6 +10,19 @@ sha
 - A ``NoResultsWarning`` is now returned when there is return of any empty 
   table. [#1837]
 
+ESASky
+^^^^
+
+- Updated ESASky module for version 3.5 of ESASky backend. [#1858]
+
+- Added row limit parameter for map queries. [#1858]
+
+
+irsa
+^^^^
+
+- Used more specific exceptions in IRSA. [#1854]
+
 mast
 ^^^^
 
@@ -27,6 +40,11 @@ esa/xmm_newton
 
 - new method ``get_epic_images`` is added to extract EPIC images from
   tarballs. [#1759]
+
+esasky
+^^^^^^
+
+- Converted unittest styled tests to pytest. [#1862]
 
 
 Gemini
@@ -63,6 +81,11 @@ UKIDSS
 ^^^^^^
 
 - Updated to ``UKIDSSDR11PLUS`` as the default version [#1767]
+
+utils/tap
+^^^^^^
+
+- Converted unittest styled tests to pytest. [#1862]
 
 alma
 ^^^^

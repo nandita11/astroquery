@@ -2,7 +2,7 @@
 """
 Simbad query class for accessing the Simbad Service
 """
-from __future__ import print_function
+
 import copy
 import re
 import requests
@@ -95,7 +95,7 @@ SimbadError = namedtuple('SimbadError', ('line', 'msg'))
 VersionInfo = namedtuple('VersionInfo', ('major', 'minor', 'micro', 'patch'))
 
 
-class SimbadResult(object):
+class SimbadResult:
     __sections = ('script', 'console', 'error', 'data')
 
     def __init__(self, txt, verbose=False):
